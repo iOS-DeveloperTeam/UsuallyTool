@@ -12,7 +12,6 @@
 #import <objc/runtime.h>
 #import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
-#import <CommonCrypto/CommonDigest.h>
 
 #define NNScreen_width [[UIScreen mainScreen] bounds].size.width
 

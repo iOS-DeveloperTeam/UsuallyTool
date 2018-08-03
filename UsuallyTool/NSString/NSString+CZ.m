@@ -8,6 +8,8 @@
 #import "NSString+CZ.h"
 #import "NNToolHeader.h"
 
+#import <CommonCrypto/CommonDigest.h>
+
 @implementation NSString (CZ)
 
 + (NSString *)dateCharConvertToString:(id)date formatter:(BLFormatterDateType)type {
