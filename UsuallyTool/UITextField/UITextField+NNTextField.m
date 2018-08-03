@@ -10,6 +10,8 @@
 
 @implementation UITextField (NNTextField)
 
+@dynamic placeholderColor;
+
 /** 通过这个属性名，就可以修改textField内部的占位文字颜色 */
 static NSString *const NNPlaceholderColorKeyPath = @"placeholderLabel.textColor";
 
@@ -30,7 +32,8 @@ static NSString *const NNPlaceholderColorKeyPath = @"placeholderLabel.textColor"
 }
 
 /** 获得占位文字颜色 */
-- (UIColor *)lx_placeholderColor {
+- (UIColor *)placeholderColor {
     return [self valueForKeyPath:NNPlaceholderColorKeyPath];
 }
+
 @end
