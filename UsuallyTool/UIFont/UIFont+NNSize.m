@@ -8,6 +8,7 @@
 
 #import "UIFont+NNSize.h"
 #import "NNToolHeader.h"
+#import <objc/runtime.h>
 
 @implementation UIFont (NNSize)
 

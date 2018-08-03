@@ -16,6 +16,6 @@ s.source       = { :git => 'https://github.com/iOS-DeveloperTeam/UsuallyTool.git
 s.requires_arc = true
 s.source_files = 'UsuallyTool/*',"UsuallyTool/*/*"
 #s.exclude_files = "Classes/Exclude"
-s.dependency = 'objc/runtime'
+#s.dependency = 'objc/runtime'
 
 end

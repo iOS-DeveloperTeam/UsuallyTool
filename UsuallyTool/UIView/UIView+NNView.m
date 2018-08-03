@@ -8,6 +8,7 @@
 
 #import "UIView+NNView.h"
 #import "NNToolHeader.h"
+#import <objc/runtime.h>
 
 static char kActionHandlerTapBlockKey;
 static char kActionHandlerTapGestureKey;

@@ -11,6 +11,7 @@
  **/
 #import "NSObject+MAdd.h"
 #import "NNToolHeader.h"
+#import <objc/runtime.h>
 
 @interface MObserverHelper : NSObject
 

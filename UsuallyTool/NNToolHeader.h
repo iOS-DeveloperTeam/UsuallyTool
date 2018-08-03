@@ -9,7 +9,7 @@
 #ifndef NNToolHeader_h
 #define NNToolHeader_h
 
-#import <objc/runtime.h>
+//#import <objc/runtime.h>
 #import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 
