@@ -15,7 +15,7 @@ s.platform     = :ios, "8.0"
 s.source       = { :git => 'https://github.com/iOS-DeveloperTeam/UsuallyTool.git', :tag => s.version}
 s.requires_arc = true
 s.source_files = 'UsuallyTool/*',"UsuallyTool/*/*"
-s.exclude_files = "Classes/Exclude"
-s.dependency = 'CommonCrypto/CommonDigest','CoreGraphics','objc/runtime','UIKit'
+#s.exclude_files = "Classes/Exclude"
+s.dependency = 'objc/runtime'
 
 end
